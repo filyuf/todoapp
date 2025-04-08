@@ -19,7 +19,7 @@ import axios from 'axios'
 const tasks = ref([])
 const newTask = ref('')
 
-const apiEndpoint = 'https://your-api-gateway-id.execute-api.us-east-1.amazonaws.com/todo' // ganti nanti
+const apiEndpoint = 'https://uhhoch5rm6.execute-api.us-east-1.amazonaws.com/todoapp' 
 
 const fetchTasks = async () => {
   const res = await axios.get(apiEndpoint)
